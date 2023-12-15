@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma Page One Page</title>
+    <title>T Loves Acronyms</title>
     <style>
         /* Ajoute tes styles CSS ici */
         body {
@@ -17,7 +17,7 @@
         section {
             /* Ajoute tes styles spécifiques ici */
             padding: 50px;
-            background-color: #f0f0f0;
+            background-color: #f1f0f0;
             text-align: center;
         }
     </style>
@@ -26,7 +26,7 @@
 
     <!-- Section 1 -->
     <section id="section1">
-        <h1>Bienvenue sur ma page One Page!</h1>
+        <h1>PLPDA - Pour la passion des acronyms</h1>
         <p>C'est la première section de ma page.</p>
     </section>
 
