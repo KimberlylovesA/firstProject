@@ -11,7 +11,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background-image: url('MONTAGNES T.jpg');
+            background-image: url(https://imgur.com/5AxqCy9);
         }
 
         /* Définis les styles pour chaque section de ta page */
@@ -39,7 +39,7 @@
 
     <!-- Section 2 -->
     <section id="section2">
-        <h2>Deuxième section</h2>
+        <h2></h2>
         <p><strong>PDT</strong> = Papy Destructeur de Tétons 
 <br><strong>CQFD</strong> = Calvitie Qui Fâche David
 <br><strong>UCPD</strong> = Uriner Comme Pas Deux
