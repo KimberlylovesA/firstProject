@@ -19,10 +19,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-.centered-text {
-      text-align: center;
-      margin-top: 50px; /* Ajuster la marge selon les besoins */
-    }
+
     }
 
     h1 {
@@ -48,7 +45,6 @@
       position: fixed;
       top: 0;
       width: 100%;
-      background-color: rgba(0, 0, 0, 0.5); /* Ajoute un fond semi-transparent */
       padding: 10px;
       text-align: center;
       z-index: 1000;
@@ -69,7 +65,10 @@
   </nav>
 
   <section id="acronyms" class="acronym-section">
-    <h1>T's Acronyms</h1>
+    .centered-text {
+      text-align: center;
+      margin-top: 50px; /* Ajuster la marge selon les besoins */
+   <h1>T's Acronyms</h1> }
     <p><strong>PDT</strong> = Papy Destructeur de Tétons 
 <br><strong>CQFD</strong> = Calvitie Qui Fâche David
 <br><strong>UCPD</strong> = Uriner Comme Pas Deux
