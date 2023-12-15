@@ -50,24 +50,6 @@
 
     <!-- Ajoute d'autres sections selon tes besoins -->
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      background-image: url('/https://www.pinterest.fr/pin/5348093300500308/');
-      background-size: cover; /* Ajuste la taille de l'image pour couvrir tout l'arrière-plan */
-      background-position: center; /* Centre l'image sur l'arrière-plan */
-      background-repeat: no-repeat; /* Empêche la répétition de l'image en arrière-plan */
-      height: 100vh; /* Ajuste la hauteur de l'arrière-plan à 100% de la hauteur de la vue (viewport) */
-      margin: 0; /* Supprime la marge par défaut du corps */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
     /* Vous pouvez ajouter d'autres styles CSS pour le contenu de votre page ici */
     h1 {
       color: white; /* Exemple de style pour le texte sur l'arrière-plan */
