@@ -20,6 +20,13 @@
             padding: 50px;
             text-align: center;
         }
+
+<style>
+    img {
+      width: 100%; /* La largeur de l'image prendra 100% de la largeur du conteneur parent */
+      height: auto; /* La hauteur s'ajuste automatiquement pour maintenir le rapport hauteur/largeur d'origine */
+    }
+  </style>
     </style>
 </head>
 <body>
@@ -33,7 +40,7 @@
     <!-- Section 2 -->
     <section id="section2">
         <h2>Deuxième section</h2>
-        <p>PDT = Papy Destructeur de Tétons 
+        <p><strong>PDT</strong> = Papy Destructeur de Tétons 
 <br><strong>CQFD</strong> = Calvitie Qui Fâche David
 <br><strong>UCPD</strong> = Uriner Comme Pas Deux
 <br><strong>IPA</strong> = Inter Party Animal
