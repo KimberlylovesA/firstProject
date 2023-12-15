@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>T Loves Acronyms ♥️</title>
+  <title>T♥️Acronyms </title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: Arial, light;
       margin: 0;
       padding: 0;
       background-image: url('MONTAGNES T.jpg'); /* Remplacez par le chemin réel de votre image */
@@ -14,7 +14,7 @@
       background-position: center;
       background-repeat: no-repeat;
       height: 100vh;
-      color: white;
+      color: black;
       display: flex;
       flex-direction: column;
       justify-content: center;
