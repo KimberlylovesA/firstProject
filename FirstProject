@@ -7,11 +7,11 @@
     <style>
         /* Ajoute tes styles CSS ici */
         body {
-            font-family: Didot, light;
+            font-family: Avenir, light;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background-image: url(https://fr.freepik.com/vecteurs-libre/paysage-montagne-design-plat_20282351.htm#query=montagne&position=46&from_view=keyword&track=sph&uuid=c3aefb66-3a33-4184-98f1-f126ca00a465);
+            background-image: url(MONTAGNES T.jpg);
         }
 
         /* Définis les styles pour chaque section de ta page */
