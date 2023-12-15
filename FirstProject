@@ -21,6 +21,12 @@
 
     section:nth-child(odd) {
       background-image: url('MONTAGNES T.jpg');
+<style>
+    img {
+      width: 100%; /* La largeur de l'image prendra 100% de la largeur du conteneur parent */
+      height: auto; /* La hauteur s'ajuste automatiquement pour maintenir le rapport hauteur/largeur d'origine */
+    }
+  </style>
     }
 
     h1 {
@@ -47,26 +53,25 @@
 </head>
 <body>
   <nav>
-    <a href="#section1">Section 1</a>
-    <a href="#section2">Section 2</a>
-    <a href="#section3">Section 3</a>
-    <!-- Ajoutez d'autres liens de navigation pour chaque section -->
-  </nav>
 
   <section id="section1">
-    <h1>Section 1</h1>
-    <p>Contenu de la première section...</p>
+    <h1>PLPDA - Pour La Passion Des Acronymes</h1>
+    <br><p><strong>PDT</strong> = Papy Destructeur de Tétons 
+<br>CQFD</strong> = Calvitie Qui Fâche David
+<br>UCPD</strong> = Uriner Comme Pas Deux
+<br>IPA</strong> = Inter Party Animal
+<br>VIP</strong> = Very Important Prout
+<br>NNN</strong> = None Non Négligeable 
+<br>WA</strong> = Willy l’Antagoniste
+<br>MK8</strong> = Mac Kiki 8 
+<br>URSS</strong> = Union des Roux Suédois Surfeurs
+<br>WE</strong> = Wapiti Electrique
+<br>Master SD</strong> = Master Sausage Danger
+<br>URL</strong> = Union des Rognons de Limoge
+<br>TT</strong> = Tanga en Tulle</p>
   </section>
 
-  <section id="section2">
-    <h1>Section 2</h1>
-    <p>Contenu de la deuxième section...</p>
-  </section>
 
-  <section id="section3">
-    <h1>Section 3</h1>
-    <p>Contenu de la troisième section...</p>
-  </section>
 
   <!-- Ajoutez d'autres sections au besoin -->
 
