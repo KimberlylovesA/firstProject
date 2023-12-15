@@ -7,17 +7,17 @@
     <style>
         /* Ajoute tes styles CSS ici */
         body {
-            font-family: Arial, sans-serif;
+            font-family: SF Hello, sans-serif;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            background-image: url('MONTAGNES T.jpg');
         }
 
         /* Définis les styles pour chaque section de ta page */
         section {
             /* Ajoute tes styles spécifiques ici */
             padding: 50px;
-            background-image: url('MONTAGNES T.jpg');
             text-align: center;
         }
     </style>
