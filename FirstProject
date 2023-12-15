@@ -50,9 +50,7 @@
 
     <!-- Ajoute d'autres sections selon tes besoins -->
 
-    h1 {
-      color: white; /* Exemple de style pour le texte sur l'arrière-plan */
-    }
+    background-image: url('Users/maevaschob/Downloads/MONTAGNES T.jpg')
   </style>
   <title>Votre Page</title>
 </head>
