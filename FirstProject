@@ -3,44 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T Loves Acronyms ♥️</title>
   <style>
     body {
-      font-family: Avenir, light;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      scroll-behavior: smooth;
-    }
-
-    section {
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-
-    body {
-      background-image: url('MONTAGNES T.jpg');
+      background-image: url('MONTAGNES T.jpg'); /* Remplacez par le chemin réel de votre image */
+      background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       height: 100vh;
-      margin: 0;
+      color: white;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
     }
-  </style>
-    }
 
     h1 {
+      font-size: 2em;
       margin-bottom: 20px;
     }
 
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    /* Styling for the acronym section (replace with actual content) */
+    .acronym-section {
+      background: rgba(0, 0, 0, 0.7); /* Ajoute un fond semi-transparent */
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    /* Styling for navigation links */
     nav {
       position: fixed;
       top: 0;
       width: 100%;
-      background-color: #333;
+      background-color: rgba(0, 0, 0, 0.5); /* Ajoute un fond semi-transparent */
       padding: 10px;
       text-align: center;
       z-index: 1000;
@@ -50,31 +55,21 @@
       color: white;
       text-decoration: none;
       margin: 0 15px;
+      cursor: pointer;
     }
   </style>
-  <title>T Loves Acronyms ♥️</title>
 </head>
 <body>
+
   <nav>
+    <a href="#acronyms">Acronymes</a>
+  </nav>
 
-  <section id="section1">
-    <h1>PLPDA - Pour La Passion Des Acronymes</h1>
-    <br><p><strong>PDT</strong> = Papy Destructeur de Tétons 
-<br><strong>CQFD</strong> = Calvitie Qui Fâche David
-<br><strong>UCPD</strong> = Uriner Comme Pas Deux
-<br><strong>IPA</strong> = Inter Party Animal
-<br><strong>VIP</strong> = Very Important Prout
-<br><strong>NNN</strong> = None Non Négligeable 
-<br><strong>WA</strong> = Willy l’Antagoniste
-<br><strong>MK8</strong> = Mac Kiki 8 
-<br><strong>URSS</strong> = Union des Roux Suédois Surfeurs
-<br><strong>WE</strong> = Wapiti Electrique
-<br><strong>Master SD</strong> = Master Sausage Danger
-<br><strong>URL</strong> = Union des Rognons de Limoge
-<br><strong>TT</strong> = Tanga en Tulle</p>
+  <section id="acronyms" class="acronym-section">
+    <h1>Dictionnaire d'Acronymes</h1>
+    <p>Explications et définitions des acronymes utilisés dans votre domaine d'intérêt.</p>
+    <!-- Ajoutez ici votre contenu, par exemple, une liste d'acronymes avec leurs définitions -->
   </section>
-
-
 
   <!-- Ajoutez d'autres sections au besoin -->
 
