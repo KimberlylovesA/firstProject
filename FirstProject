@@ -1,86 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>T Loves Acronyms</title>
-    <style>
-        /* Ajoute tes styles CSS ici */
-        body {
-            font-family: Avenir, light;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-image: url('MONTAGNES T.jpg');
-        }
-
-        /* Définis les styles pour chaque section de ta page */
-        section {
-            /* Ajoute tes styles spécifiques ici */
-            padding: 50px;
-            text-align: center;
-        }
-
-<style>
-    img {
-      width: 100%; /* La largeur de l'image prendra 100% de la largeur du conteneur parent */
-      height: auto; /* La hauteur s'ajuste automatiquement pour maintenir le rapport hauteur/largeur d'origine */
-    }
-  </style>
-    </style>
-</head>
-<body>
-
-    <!-- Section 1 -->
-<div class="bloc">
-    <section id="section1">
-        <h1>T Loves Acronyms</h1>
-        <p>PLPDA - Pour La Passion Des Acronyms</p>
-    </section>
-</div>
-
-    <!-- Section 2 -->
-    <section id="section2">
-        <h2></h2>
-<div class="bloc">
-        <p><strong>PDT</strong> = Papy Destructeur de Tétons 
-<br><strong>CQFD</strong> = Calvitie Qui Fâche David
-<br><strong>UCPD</strong> = Uriner Comme Pas Deux
-<br><strong>IPA</strong> = Inter Party Animal
-<br><strong>VIP</strong> = Very Important Prout
-<br><strong>NNN</strong> = None Non Négligeable 
-<br><strong>WA</strong> = Willy l’Antagoniste
-<br><strong>MK8</strong> = Mac Kiki 8 
-<br><strong>URSS</strong> = Union des Roux Suédois Surfeurs
-<br><strong>WE</strong> = Wapiti Electrique
-<br><strong>Master SD</strong> = Master Sausage Danger
-<br><strong>URL</strong> = Union des Rognons de Limoge
-<br><strong>TT</strong> = Tanga en Tulle</p>
-    </section>
-</div>
-
-    <!-- Ajoute d'autres sections selon tes besoins -->
-
-    <html lang="en">
-<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      height: 100vh;
+      font-family: Avenir, light;
       margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    section {
+      height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
+      text-align: center;
+    }
+
+    section:nth-child(odd) {
+      background-image: url('MONTAGNES T.jpg');
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
     }
   </style>
-  <title>Votre Page</title>
+  <title>T Loves Acronyms ♥️</title>
 </head>
+<body>
+  <nav>
+    <a href="#section1">Section 1</a>
+    <a href="#section2">Section 2</a>
+    <a href="#section3">Section 3</a>
+    <!-- Ajoutez d'autres liens de navigation pour chaque section -->
+  </nav>
 
-</html>
+  <section id="section1">
+    <h1>Section 1</h1>
+    <p>Contenu de la première section...</p>
+  </section>
+
+  <section id="section2">
+    <h1>Section 2</h1>
+    <p>Contenu de la deuxième section...</p>
+  </section>
+
+  <section id="section3">
+    <h1>Section 3</h1>
+    <p>Contenu de la troisième section...</p>
+  </section>
+
+  <!-- Ajoutez d'autres sections au besoin -->
+
+  <script>
+    // Ajoutez le code JavaScript pour la navigation à défilement doux
+    document.querySelectorAll('nav a').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
 </body>
 </html>
