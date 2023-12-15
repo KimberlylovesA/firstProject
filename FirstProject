@@ -19,12 +19,16 @@
       text-align: center;
     }
 
-    section:nth-child(odd) {
+    body {
       background-image: url('MONTAGNES T.jpg');
-<style>
-    img {
-      width: 100%; /* La largeur de l'image prendra 100% de la largeur du conteneur parent */
-      height: auto; /* La hauteur s'ajuste automatiquement pour maintenir le rapport hauteur/largeur d'origine */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   </style>
     }
@@ -57,18 +61,18 @@
   <section id="section1">
     <h1>PLPDA - Pour La Passion Des Acronymes</h1>
     <br><p><strong>PDT</strong> = Papy Destructeur de Tétons 
-<br>CQFD</strong> = Calvitie Qui Fâche David
-<br>UCPD</strong> = Uriner Comme Pas Deux
-<br>IPA</strong> = Inter Party Animal
-<br>VIP</strong> = Very Important Prout
-<br>NNN</strong> = None Non Négligeable 
-<br>WA</strong> = Willy l’Antagoniste
-<br>MK8</strong> = Mac Kiki 8 
-<br>URSS</strong> = Union des Roux Suédois Surfeurs
-<br>WE</strong> = Wapiti Electrique
-<br>Master SD</strong> = Master Sausage Danger
-<br>URL</strong> = Union des Rognons de Limoge
-<br>TT</strong> = Tanga en Tulle</p>
+<br><strong>CQFD</strong> = Calvitie Qui Fâche David
+<br><strong>UCPD</strong> = Uriner Comme Pas Deux
+<br><strong>IPA</strong> = Inter Party Animal
+<br><strong>VIP</strong> = Very Important Prout
+<br><strong>NNN</strong> = None Non Négligeable 
+<br><strong>WA</strong> = Willy l’Antagoniste
+<br><strong>MK8</strong> = Mac Kiki 8 
+<br><strong>URSS</strong> = Union des Roux Suédois Surfeurs
+<br><strong>WE</strong> = Wapiti Electrique
+<br><strong>Master SD</strong> = Master Sausage Danger
+<br><strong>URL</strong> = Union des Rognons de Limoge
+<br><strong>TT</strong> = Tanga en Tulle</p>
   </section>
 
 
