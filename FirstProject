@@ -50,16 +50,13 @@
 
     <!-- Ajoute d'autres sections selon tes besoins -->
 
-    /* Vous pouvez ajouter d'autres styles CSS pour le contenu de votre page ici */
     h1 {
       color: white; /* Exemple de style pour le texte sur l'arrière-plan */
     }
   </style>
   <title>Votre Page</title>
 </head>
-<body>
-  <h1>Votre contenu</h1>
-</body>
+
 </html>
 </body>
 </html>
