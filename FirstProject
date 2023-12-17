@@ -9,7 +9,7 @@
       font-family: Arial, light;
       margin: 0;
       padding: 0;
-      background-image: url('MONTAGNEST.jpg'); /* Remplacez par le chemin réel de votre image */
+      background-image: url('MONTAGNEST.jpeg'); /* Remplacez par le chemin réel de votre image */
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
